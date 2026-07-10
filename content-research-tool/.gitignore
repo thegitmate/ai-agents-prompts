@@ -1,0 +1,15 @@
+# Local config with personal paths — never commit
+config.local.md
+
+# Generated run data
+data/raw-today.json
+data/snapshots/*.md
+
+# Fallback reports (may contain your niche's research output)
+research/*.md
+!research/README.md
+
+# OS / Python cruft
+.DS_Store
+__pycache__/
+*.pyc
